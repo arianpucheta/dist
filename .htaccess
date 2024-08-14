@@ -1,0 +1,7 @@
+AddType application/javascript .js
+AddType text/css .css
+AddType image/png .png
+AddType image/jpeg .jpg
+AddType image/gif .gif
+AddType application/json .json
+AddType text/html .html

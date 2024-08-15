@@ -5,3 +5,8 @@ AddType image/jpeg .jpg
 AddType image/gif .gif
 AddType application/json .json
 AddType text/html .html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
